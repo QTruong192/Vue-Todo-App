@@ -13,7 +13,6 @@ import ListNote from "./components/ListNote.vue";
           </div>
         </div>
       </div>
-      <h1></h1>
       <h1>ToToDo</h1>
       <AddForm
         :selectedLanguage="selectedLanguage"

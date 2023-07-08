@@ -1,7 +1,11 @@
-const { defineConfig } = require("@vue/cli-service");
-module.exports = defineConfig({
-  transpileDependencies: true,
-});
+// const { defineConfig } = require("@vue/cli-service");
+// module.exports = defineConfig({
+//   transpileDependencies: true,
+// });
+
 module.exports = {
-  publicPath: process.env.NODE_ENV === "production" ? "/Vue-Todo-App/" : "/",
+  publicPath:
+    process.env.NODE_ENV === "production"
+      ? "/Vue-Todo-App/" // Thay tên repository của các bạn vào đây nhé
+      : "/",
 };
